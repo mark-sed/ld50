@@ -10,7 +10,6 @@ import com.sedlacek.ld50.gui.GUIHandler;
 import com.sedlacek.ld50.gui.Lightning;
 import com.sedlacek.ld50.level.BossRoom;
 import com.sedlacek.ld50.main.AudioGalery;
-import com.sedlacek.ld50.main.AudioPlayer;
 import com.sedlacek.ld50.main.Config;
 import com.sedlacek.ld50.main.Game;
 

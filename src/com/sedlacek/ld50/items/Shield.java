@@ -2,7 +2,6 @@ package com.sedlacek.ld50.items;
 
 import com.sedlacek.ld50.graphics.ImageLoader;
 import com.sedlacek.ld50.graphics.SpriteSheet;
-import com.sedlacek.ld50.main.Game;
 
 public class Shield extends Item {
 

@@ -2,7 +2,6 @@ package com.sedlacek.ld50.main;
 
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
-import java.util.Random;
 
 import com.sedlacek.ld50.graphics.Animation;
 
@@ -26,7 +25,6 @@ public abstract class Entity extends GameObject {
 	protected long lastBreathTime;
 	protected long lastHitTime;
 	private boolean exhale;
-	private Random r = new Random();
 	
 	public Entity(int col, int row) {
 		this.col = col;

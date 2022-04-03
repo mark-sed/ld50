@@ -4,7 +4,6 @@ import java.util.Random;
 
 import com.sedlacek.ld50.graphics.ImageLoader;
 import com.sedlacek.ld50.graphics.SpriteSheet;
-import com.sedlacek.ld50.items.Item;
 import com.sedlacek.ld50.main.Config;
 
 public class Skeleton extends Enemy{

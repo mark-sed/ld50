@@ -3,10 +3,8 @@ package com.sedlacek.ld50.gui;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
-import java.util.Random;
 
 import com.sedlacek.ld50.graphics.ImageLoader;
-import com.sedlacek.ld50.items.Item;
 import com.sedlacek.ld50.level.Level;
 import com.sedlacek.ld50.level.Room;
 import com.sedlacek.ld50.main.Config;

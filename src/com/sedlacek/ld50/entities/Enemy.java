@@ -2,7 +2,6 @@ package com.sedlacek.ld50.entities;
 
 import java.util.Random;
 
-import com.sedlacek.ld50.items.Coins;
 import com.sedlacek.ld50.items.Item;
 import com.sedlacek.ld50.level.Level;
 import com.sedlacek.ld50.main.Entity;

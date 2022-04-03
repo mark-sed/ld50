@@ -4,20 +4,16 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;
 
-import com.sedlacek.ld50.entities.Player;
-import com.sedlacek.ld50.items.Item;
 import com.sedlacek.ld50.main.Config;
 import com.sedlacek.ld50.main.Entity;
 
 public class InfoBox extends GUIObject {
 	
-	private Entity e;
 	private String header, text;
 	private long timeoutms;
 	private long startTime;
 	
 	public InfoBox(Entity e, int x, int y, String header, String text, long timeoutms) {
-		this.e = e;
 		this.x = x;
 		this.y = y;
 		this.header = header;

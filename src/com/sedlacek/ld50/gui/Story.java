@@ -155,7 +155,7 @@ public class Story {
 		case 8:
 			if(System.currentTimeMillis() - startTime > 2800) {
 				GUIHandler.objects.add(latestBox = new InfoBox(null, Config.WIDTH/2, boss.getY()-boss.getH()*Config.P_MULT-4*Config.SIZE_MULT,
-						Boss.name, "Your DEATH is inevitable!", 3000));
+						Boss.name, "Your DEATH is INEVITABLE!", 3000));
 				if(Game.soundOn) {
 					AudioGalery.reaperSpeaking.playClip();
 				}
@@ -198,7 +198,7 @@ public class Story {
 	
 	public void render(Graphics g) {
 		g.drawImage(Room.background, 0, 0, Config.WIDTH, Config.HEIGHT, null);
-		g.setColor(new Color(0,0,0,100));
+		g.setColor(new Color(0,0,0,00));
 		g.fillRect(0, 0, Config.WIDTH, Config.HEIGHT);
 		if(counter > 1 && counter < 11)
 			boss.render(g);

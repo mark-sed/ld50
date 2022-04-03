@@ -40,7 +40,6 @@ public abstract class Item extends Entity {
 		float ch = r.nextFloat();
 		Item item = null;
 		if(ch < legendary) {
-			System.out.println("Drop legendary");
 			int i = r.nextInt(2);
 			if(i == 0 && Game.player.canGainItem(Wings.ID)) {
 				item = new Wings(col, row);
@@ -50,7 +49,6 @@ public abstract class Item extends Entity {
 			}
 		}
 		else if(ch < epic) {
-			System.out.println("Drop epic");
 			int i = r.nextInt(3);
 			if(i == 0 && Game.player.canGainItem(Shield.ID)) {
 				item = new Shield(col, row);
@@ -63,7 +61,6 @@ public abstract class Item extends Entity {
 			}
 		}
 		else if(ch < rare) {
-			System.out.println("Drop rare");
 			int i = r.nextInt(3);
 			if(i == 0 && Game.player.canGainItem(EmptyHeart.ID)) {
 				item = new EmptyHeart(col, row);
@@ -76,7 +73,6 @@ public abstract class Item extends Entity {
 			}
 		}
 		else if(ch < common) {
-			System.out.println("Drop common");
 			int i = r.nextInt(5);
 			if(i == 0)
 				item = new Heart(col, row);

@@ -15,7 +15,6 @@ import com.sedlacek.ld50.entities.Slime;
 import com.sedlacek.ld50.graphics.ImageLoader;
 import com.sedlacek.ld50.gui.BossIndicator;
 import com.sedlacek.ld50.gui.GUIHandler;
-import com.sedlacek.ld50.gui.GUIObject;
 import com.sedlacek.ld50.items.Item;
 import com.sedlacek.ld50.items.Wings;
 import com.sedlacek.ld50.main.AudioGalery;
@@ -84,7 +83,6 @@ public class Level {
 		}
 		Boss.countdownSet = false;
 		bossIndicator.setHide(false);
-		System.out.println("Next level: Room "+number);
 		enemies.clear();
 		drops.clear();
 		tileAmount += r.nextInt(10)+10;
