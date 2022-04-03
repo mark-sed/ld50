@@ -6,6 +6,13 @@ import java.awt.event.KeyListener;
 public class KeyManager implements KeyListener{
 
 	public static final int S = KeyEvent.VK_S;
+	public static final int W = KeyEvent.VK_W;
+	public static final int A = KeyEvent.VK_A;
+	public static final int UP = KeyEvent.VK_UP;
+	public static final int DOWN = KeyEvent.VK_DOWN;
+	public static final int LEFT = KeyEvent.VK_LEFT;
+	public static final int RIGHT = KeyEvent.VK_RIGHT;
+	public static final int SPACE = KeyEvent.VK_SPACE;
 	public static final int R = KeyEvent.VK_R;
 	public static final int T = KeyEvent.VK_T;
 	public static final int ENTER=KeyEvent.VK_ENTER;
@@ -13,6 +20,10 @@ public class KeyManager implements KeyListener{
 	public static final int ESC=KeyEvent.VK_ESCAPE;
 	public static final int M=KeyEvent.VK_M;
 	public static final int D=KeyEvent.VK_D;
+	public static final int C=KeyEvent.VK_C;
+	public static final int N=KeyEvent.VK_N;
+	public static final int H=KeyEvent.VK_H;
+	public static final int F8=KeyEvent.VK_F8;
 	
 	public static boolean rightSide = false,
 							rightSideCtrl = false;

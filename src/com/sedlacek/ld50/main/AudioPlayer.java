@@ -34,10 +34,18 @@ public class AudioPlayer {
     public void resumeClip(){
         clip.start();
     }
+    
+    public void reset() {
+        clip.setFramePosition(0);
+    }
 
     public void stopClip(){
         if(clip.isRunning())
             clip.stop();
+    }
+    
+    public void continueLoop() {
+    	clip.loop(Clip.LOOP_CONTINUOUSLY);
     }
 
     public void loop(){

@@ -8,6 +8,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 import com.sedlacek.ld50.main.AudioPlayer;
+import com.sedlacek.ld50.main.Config;
 import com.sedlacek.ld50.main.Game;
 
 public class Button extends GUI{
@@ -15,7 +16,7 @@ public class Button extends GUI{
     public String text;
     public Color color;
     public Color textColor;
-    public Font textFont = new Font("DorFont03", Font.BOLD, 16);
+    public Font textFont = new Font("DorFont03", Font.BOLD, 12*Config.SIZE_MULT);
 
     public int border_size = 2;
     public boolean active = false;
@@ -27,7 +28,7 @@ public class Button extends GUI{
     public int yoffsetText = 0;
     public int xoffsetText = 0;
 
-    public static final AudioPlayer sound = new AudioPlayer("/soundButton2.wav");
+    public static final AudioPlayer sound = new AudioPlayer("/button1.wav");
 
     public Button() {
     	
@@ -110,7 +111,8 @@ public class Button extends GUI{
     @Override
     public void clicked() {
         if(clickedMethod != null && !disabled){
-            sound.playClip();
+        	if(Game.soundOn)
+        		sound.playClip();
             try {
                 clickedMethod.invoke(this.invoker);
             } catch (IllegalAccessException e) {

@@ -15,6 +15,7 @@ public class ImageLoader {
 			return ImageIO.read(getClass().getResource(path));
 		} catch (IOException e) {
 			e.printStackTrace();
+			System.err.println("Error: Failed to load image from: "+path);
 		}
 		return null;
 	}
@@ -24,6 +25,7 @@ public class ImageLoader {
 			return ImageIO.read(getClass().getResource(path));
 		} catch (IOException e) {
 			e.printStackTrace();
+			System.err.println("Error: Failed to load image from: "+path);
 		}
 		return null;
 	}
