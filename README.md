@@ -2,7 +2,7 @@
 
 This game was made for Ludum Dare 50 in compo section in 48 hrs (actually little bit less) by me (Marek Sedláček).
 
-**[LINK TO LUDUM DARE GAME PAGE]()** (look there for more info).
+**[LINK TO LUDUM DARE GAME PAGE](https://ldjam.com/events/ludum-dare/50/dungeon-escape)** (look there for more info).
 
 Dungeon Escape is a turn-based rogue like game with a little twist -- You're running away from the boss. 
 The defeat might be inevitable, but you have to do your best to delay it and get as far as you can.
